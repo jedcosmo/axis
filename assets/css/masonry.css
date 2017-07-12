@@ -1,0 +1,101 @@
+.masonry_wrapper .masonry img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.masonry_wrapper{
+    padding:0 1em;
+}
+
+.masonry_wrapper .masonry {
+    margin: 1.5em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+    margin-bottom:0;
+}
+
+.masonry_wrapper .item {
+    display: inline-block;
+    background: #eee;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-bottom:solid 5px #4198f5;
+}
+
+.masonry_wrapper .item .pads {
+  padding: 1.5em;
+}
+
+.masonry_wrapper a, .masonry_wrapper a:hover{
+  text-decoration:none;
+  color:#555;
+}
+
+.masonry_wrapper span{
+  margin:2% 0;
+  text-align:left;
+  color:#444;
+  display:block;
+  font-size:20px;
+}
+
+.masonry_wrapper p{
+  font-size:18px;
+}
+
+.masonry_wrapper .hover{
+  display:block;
+  width:100%;
+  height:100%;
+  transition:background-color 200ms linear;
+  -moz-transition:background-color 200ms linear;
+  -webkit-transition:background-color 200ms linear;
+  -ms-transition:background-color 200ms linear;
+  -o-transition:background-color 200ms linear;  
+}
+
+.masonry_wrapper .hover:hover{
+  background:rgba(33, 154, 255, 0.5);
+}
+
+.masonry_wrapper .hover:hover p, .masonry_wrapper .hover:hover span{
+  color:#fff;
+}
+
+@media only screen and (min-width: 700px) {
+    .masonry_wrapper .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .masonry_wrapper .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .masonry_wrapper .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}

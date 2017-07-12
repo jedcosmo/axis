@@ -1,0 +1,278 @@
+@media screen and (max-width: 1400px){
+	/*
+	.home-about, .today_at_axis, .home-programs, .home-impact, .home-blogs, .home-events, .mission, .story, .team, .joun_us, .daily_events, .calendar_block, 
+	.get_join, .products, .video, .contact_form, .two-column, .weekly_events
+	{
+		min-height:100%;
+		height:auto;
+	}
+	*/
+	.page-banner{
+/*		min-height:68%;
+		height:auto;*/
+                padding-top: 160px;
+	}
+
+	.get_involved ul li{
+		height:350px;
+	}
+        
+        .get_involved ul li a{ padding-top: 60px; }
+
+	.default_story_a, .mobile_story_a{
+		display:none;
+	}
+
+	.responsive_story_a{
+		display:block;
+	}
+        
+        .daily_events{
+            min-height: 60%;
+        }
+        
+        .programs .program .hover p{
+            font-size:  16px;
+        }
+}
+
+@media screen and (max-width: 1268px){
+
+	.home-header img { width:130px; }
+	.get-involved-btn { margin-top:25px; font-size:14px; }	
+	ul.social li { margin-top:10px; font-size:40px; }
+	.container { width:100%; }
+	.home-menu li a { font-size:16px; }
+	.home-menu li i { font-size:30px; }
+	#scroll_menu ul { margin-top:7px; }
+	#scroll_menu ul li a { font-size:16px; }
+	#scroll_menu ul li a i { font-size:35px; }
+
+	.calendar_block .boxes div { height:215px; }
+
+}
+
+@media screen and (max-width: 1150px){
+	#scroll_menu ul li { padding:0 10px; }
+	.page-header .page-menu li { margin-left:9px; }
+}
+
+@media screen and (max-width: 1024px){
+	#scroll_menu { display:none !important; }
+	#close_sider { display:block; }
+	#open_sider { display:block; }
+	.home-header ul.social, .home-header .get-involved-btn { display:none; }
+	#home-menu { display:none; }
+	.home-programs ul li { width:50%; }
+	.home-events .box { margin:0 auto 49px; }
+	.page-header .social { display:none; }
+	.page-menu { display:none; }
+
+	.home-events .box .title { line-height:20px; font-size:14px; }
+	.home-events .box .title span { padding-top:0px; font-size:12px; }
+
+	.program_section span, .program_section p { margin-bottom: 0px; }
+	.program_section span { font-size:30px; }
+	.program_section p { font-size:20px; }
+	.program_section .col-md-9 { padding:20px; }
+	.program_section { padding:80px 0; }
+	.program_section_1 { background-position:right center !important; background-size:100% !important; background-attachment:scroll !important; }
+	.program_section_2 { background-position:left center !important; background-size:100% !important; background-attachment:scroll !important; }
+
+	.mission .video { width:100%; height:604px; }
+	.team .member { height:300px; }
+	.team .member span { padding-top:23%; }
+	.team .member div { height:70px; width:70px; }
+
+	.mission .video iframe { width:98%; }
+
+	.mission .video { margin:0 auto; }
+
+	.page-banner a { display:none; }
+        .get_join .video{ padding-bottom: 60px; }
+
+}
+
+@media screen and (max-width: 995px){
+	.footer .col-md-3, .footer .col-md-9 { text-align:center; }
+        
+	.get_involved ul li a div { height:100px; width:100px; }
+	.get_involved ul li a div i { font-size:40px; }
+	.get_involved ul li a span { font-size:20px; }
+
+	.get_involved_response .border { margin:15px auto 0; }
+
+	.products ul li { width:30%; }
+
+	.page-banner { /*height:300px;*/ padding-top:160px; }
+	.page-banner h1{ font-size:46px; }
+	.page-banner h4{ font-size:18px; }
+
+	.mission .video iframe { width:100%; height:99%; }
+        
+        .programs .program .hover p{
+            font-size:  18px;
+        }
+        .get_join .video a{ display: none; }
+}
+
+@media screen and (min-width: 780px) and (max-width: 790px){
+    .page-banner { padding-top: 320px; }
+}
+
+@media screen and (max-width: 991px){
+	.program_modal iframe { height:345px; }
+	.get_involved ul li { width:400px; height:300px; }
+	.table_responsive { overflow-x:auto !important; }
+	.table_calendar { table-layout: auto !important; }
+
+	.default_story_a, .responsive_story_a{
+		display:none;
+	}
+
+	.mobile_story_a{
+		display:block;
+	}
+
+	.calendar_block .boxes div { height:auto; }
+	.calendar_block .boxes div:first-child { padding-bottom:0; }
+	.calendar_block .boxes div:last-child { padding-top:0; }
+}
+
+@media screen and (max-width: 768px){
+	/*.home-header { height:60% !important; }*/
+	.home-header h1 { top:30%; }
+	.home-header h4 { top:45%; }
+	.home-impact p { font-size:41px; margin:0; }
+	.home-events .box { width:50%; }
+
+	.program_section_1, .program_section_2 { background:#fff !important; }
+
+	/*.get_involved ul li { width:100%; height:400px; }*/
+
+	.mission .video iframe { height:76%; }
+        .mission .video a{ display: none; }        
+}
+
+@media screen and (max-width: 767px){
+	.masonry_wrapper { width:50%; margin:0 auto; }
+	.programs .program { width:50% !important; }
+}
+
+@media screen and (max-width: 736px){  
+	.mission .video iframe { height:73%; }
+}
+
+@media screen and (max-width: 667px){  
+	.mission .video iframe { height:66%; }
+}
+
+@media screen and (max-width: 600px){
+
+	#video-background { display:none; }
+	.home-header { background:#eee; /*height:45% !important;*/ }
+	.home-header h1 { color:#4199f4; font-size:46px; top:35%; }
+	.home-header h4 { color:#444; text-shadow:none; font-size:16px; top:65%; }
+	.home-about .border { margin:44px auto 0; }
+	.home-programs ul li { height:300px; width:50%; }
+	.home-programs ul li span { padding-top:12%; }
+	.home-programs ul li .play { width:50px; height:50px; top:75%; }
+	.programs .program .hover .play { width:50px; height:50px; top:75%; }
+
+	.programs .program { height:400px; }
+	.programs .program a span { padding-top:15%; }
+	.programs .program a div { width:80px; height:80px; top:50%; }
+
+	.team .member div { height:80px; width:80px; }
+
+	h3 { font-size:40px; padding-top:44px; }
+	p { font-size:14px; }
+	.btn-default { font-size:14px; }
+
+	.masonry_wrapper { width:90%; }
+
+	.products ul li { width:50%; }
+
+	.page-banner { /*height:250px;*/ padding-top:80px; }
+	.page-banner h1{ font-size:36px; }
+	.page-banner h4{ font-size:14px; }
+
+	.mission .video iframe { height:63%; }        
+}
+ 
+@media screen and (max-width: 568px){          
+	.mission .video iframe { height:56%; }
+	.home-programs ul li { width:400px; }
+	.programs { background:#fff !important }
+	.programs .program { width:400px !important; float:unset !important; margin:0 auto; }
+}
+
+@media screen and (max-width: 414px){ 
+	.mission .video iframe { height:40%; }
+
+	.home-programs ul li { width:100%; }
+	.get_involved ul li { width:100%; }
+	.programs .program { width:100% !important; }
+
+	.team .member { width:100%; }
+}
+
+
+@media screen and (max-width: 400px){
+	hr { width:90%; }
+
+	.products ul li { width:100%; }
+
+	.mission .video iframe { height:36%; }
+}
+
+@media screen and (max-width: 375px){  
+
+}
+
+@media screen and (max-width: 360px){  
+	.mission .video iframe { height:35%; }
+}
+
+@media screen and (max-width: 320px){  
+	.mission .video iframe { height:31%; }
+}
+
+
+
+
+/* 7 COLS */
+@media (min-width: 768px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+/**
+ *  The following is not really needed in this case
+ *  Only to demonstrate the usage of @media for large screens
+ */    
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+@media screen and ( max-height: 500px ){
+    .home-header h4{top: 60%;}
+}
